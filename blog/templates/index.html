@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+
 {% block title %}
     Homepage - {{ block.super }}
 {% endblock title %}
@@ -7,3 +8,7 @@
     <h1>Hello World!</h1>
     <p>I am a basic website.</p>
 {% endblock content %}
+
+{% block footer %}
+    <p class="footer">&copy 2017. David Madrigal-Hernandez.</p>
+{% endblock footer %}
