@@ -1,13 +1,22 @@
 body {
     background-color: #ffffff;
-    margin: 0 20px;
 }
 header {
+    margin: 20px 20px 0 20px;
+    padding: 10px 10px 0 10px;
     text-align: center;
     font-size: larger;
     font-family: Sans, serif;
-    border: 1px solid #f5f5dc;
-    box-shadow: 10px 10px 10px #777;
+    border: 1px solid #000;
+    background-color: rgba(175, 50, 75, 0.2);
+    box-shadow: 0 0 15px #888;
+}
+.quote {
+    font-size: 14px;
+}
+.quote-text {
+    font-style: italic;
+    font-weight: bold;
 }
 nav ul {
     padding: 0;
@@ -24,8 +33,15 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
-body {
-    font-family: 'Times New Roman', Times, Arial, sans-serif, serif;
+nav ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.jumbotron {
+    text-align: center;
+}
+.mainContent p {
+    text-indent: 50px;
 }
 .about-content {
     text-indent: 50px;
