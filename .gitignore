@@ -95,3 +95,6 @@ ENV/
 
 #C9 Environment Settings
 .c9
+
+#Pycharm Settings
+.idea
